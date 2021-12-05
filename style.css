@@ -1,12 +1,14 @@
 
 .container {
-   margin-top: 100px;
-   margin-left: 44%;
+   margin: 100px 0 0 40%;
+   background:black;
+   width: 240px;
 }
 
 h1 {
    font-size: 40px;
    margin-bottom: 0;
+   color: silver;
 }
 
 .second-title {
