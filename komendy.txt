@@ -1,0 +1,24 @@
+Usage
+npm install -g html-validate
+html-validate FILENAME..
+
+Configuration
+Create .htmlvalidate.json:
+
+{
+  "extends": [
+    "html-validate:recommended"
+  ],
+
+  "rules": {
+    "close-order": "error",
+    "void": ["warn", {"style": "omit"}]
+  }
+}
+
+Example
+  1:1  error  Element <p> is implicitly closed by adjacent <div>  no-implicit-close
+  2:2  error  Button is missing type attribute button-type
+  6:4  error  Unexpected close-tag, expected opening tag close-order
+
+P.S. Nie wiem, czy to jest to, co trzeba. Nie rozumiem za bardzo tego zadania i co dokładnie muszę tu zamieścić.

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Vladyslav1998/Zadanie-2-git#readme",
   "devDependencies": {
-    "browser-sync": "^2.27.7"
+    "browser-sync": "^2.27.7",
+    "html-validate": "^6.1.4"
   }
 }
